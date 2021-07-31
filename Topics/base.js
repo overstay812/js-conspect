@@ -1,18 +1,18 @@
 
-//                                  FIRST PART
+//                                  BASE
 
 // ---------------------------------- Types ----------------------------------
 const string = "string"
 const number = 42
+const bigInt = 42n
 const boolean = true
-const object = { name: "pete", age: "20" }
-const array = ["one", "two", "three"]
 const undefiend = undefined
 const nullElemet = null
-
+const object = { name: "pete", age: 20 }
+const symbol = Symbol("unicSymbol") 
 //  ---------------------------------- Operators and Logical operators ----------------------------------
 
-let operators = `+ - * / % > < >= <= === ++ -- += && || !` //to get to know operator precedence
+let operators = `+ - * / % > < >= <= === ++ -- += && || !` //to get to know operator's precedence
 
 // ---------------------------------- statements ----------------------------------
 
@@ -92,6 +92,4 @@ const person = {
 // console.log(person);
 // person.sayHallo('Hi there!')
 
-
-//                                   SECOND PART
 
