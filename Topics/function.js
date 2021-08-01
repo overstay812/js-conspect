@@ -60,5 +60,5 @@ function createMember(name) {                   //closures
 }
 const logWithLastName = createMember('Pete')
 
-console.log(logWithLastName('anderson'));
-console.log(logWithLastName('swenson'));
+// console.log(logWithLastName('anderson'));
+// console.log(logWithLastName('swenson'));
