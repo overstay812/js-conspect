@@ -1,4 +1,7 @@
 // ---------------------------------- Number ----------------------------------
+const number1 = new Number(42) //object, 
+// console.log(number1.valueOf()); 
+
 const num = 42
 const float = 42.42
 const pow = 10e3
@@ -11,7 +14,7 @@ const pow = 10e3
 // console.log(Number.MAX_SAFE_INTEGER);
 // console.log(Number.MAX_VALUE);
 // console.log(Number.POSITIVE_INFINITY);
-// console.log(Number.isFinite(42));
+// console.log(Number.isFinite(42)); 
 
 const nan = Number.NaN
 // console.log(nan); // number

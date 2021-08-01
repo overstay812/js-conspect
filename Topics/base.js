@@ -9,10 +9,10 @@ const boolean = true
 const undefiend = undefined
 const nullElemet = null
 const object = { name: "pete", age: 20 }
-const symbol = Symbol("unicSymbol") 
+const symbol = Symbol("unicSymbol")
 //  ---------------------------------- Operators and Logical operators ----------------------------------
 
-let operators = `+ - * / % > < >= <= === ++ -- += && || !` //to get to know operator's precedence
+let operators = `+ - * / % > < >= <= == === ++ -- ** += && || !` //to get to know operator's precedence
 
 // ---------------------------------- statements ----------------------------------
 
@@ -40,8 +40,8 @@ switch (bool) {
 
 // ---------------------------------- Functions ----------------------------------
 
-const foo1 = function(name, age) {
-  console.log(name , age)
+const foo1 = function (name, age) {
+  console.log(name, age)
 }
 // foo1("Pete", 42)
 
@@ -63,7 +63,7 @@ carsArray1[carsArray1.length] = 'subaru'
 
 const carsArray3 = new Array('bmw', 'reno', 'shoha')
 
-for(let i = 0; i <= carsArray2.length - 1; i++){
+for (let i = 0; i <= carsArray2.length - 1; i++) {
   // console.log(carsArray2[i]);
 }
 
@@ -71,7 +71,7 @@ for (let item of carsArray3) {
   // console.log(item);
 }
 
-  // ---------------------------------- Object ----------------------------------
+// ---------------------------------- Object ----------------------------------
 
 const person = {
   firstName: 'Pete',
@@ -79,7 +79,7 @@ const person = {
   years: 42,
   languales: ['Ru', 'Eng', 'De'],
   hasWife: false,
-  sayHallo(greet){
+  sayHallo(greet) {
     console.log(greet);
   }
 }
